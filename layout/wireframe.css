@@ -1,0 +1,78 @@
+/* ========================
+   WIREFRAME MODE
+======================== */
+
+* {
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    transition: none !important;
+}
+
+/* Background */
+body {
+    background: #f2f2f2;
+    font-family: Arial, sans-serif;
+    color: #000;
+}
+
+/* Card & Box */
+.card,
+.stat-box {
+    background: #fff;
+    border: 2px dashed #999;
+}
+
+/* Table */
+table {
+    border: 2px solid #999;
+}
+
+table th {
+    background: #ddd;
+    border-bottom: 2px solid #999;
+    font-weight: bold;
+}
+
+table td {
+    background: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Buttons */
+button,
+.btn-detail,
+.btn-verify,
+.btn-scrape {
+    background: #fff !important;
+    color: #000 !important;
+    border: 2px solid #000;
+    font-weight: bold;
+}
+
+/* Badges */
+.badge,
+.badge-prioritas,
+.badge-sentiment,
+.badge-instagram {
+    background: #fff !important;
+    color: #000 !important;
+    border: 1px solid #000;
+}
+
+/* Statistik Number */
+.stat-box .number {
+    color: #000 !important;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Remove gradients */
+[class*="gradient"] {
+    background: #ccc !important;
+}
+
+
+* {
+    background: #eeeeee !important;
+    color: #000000 !important;
+}
